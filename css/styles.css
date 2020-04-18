@@ -1,0 +1,26 @@
+body {
+    background-image: url(images/pizza1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 20px;
+    padding: 10px;
+    margin: 60px;
+}
+h1 {
+    font-size: 100px;
+    color: crimson;
+}
+.card {
+    background-image: url(images/pizza2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    color: rgb(233, 201, 21);
+    text-align: center;
+    background-position: center;
+    font-size: 30px;
+}
+.container {
+    align-content: center;
+}
