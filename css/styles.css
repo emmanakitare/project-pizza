@@ -24,3 +24,13 @@ h1 {
 .container {
     align-content: center;
 }
+#forms {
+    width: 100px;
+    color: white;
+}
+#address {
+    display: none;
+}
+#delivery {
+    float: right;
+}

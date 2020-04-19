@@ -17,7 +17,8 @@
             </div>
         </div>
         </div>
-        <div class="container">
+        <div id="forms">
+         <div class="container">
 
             <form>
                 <input type="radio" id="small" name="size" value="small">
@@ -41,9 +42,65 @@
                     <option value="onions">Onions</option>
                     <option value="extra-cheese">Extra cheese</option>
                 </select><br>
-                
-                <input type="submit">
+
+                <input type="submit" onclick="">
             </form>
+         </div>
+        </div>
+        <div id="delivery">
+            <div class="container">
+                <h3>Delivery Enquiry</h3>
+                <p>Would you like your order to be delivered?</p>
+                <form>
+                    <input type="radio" id="yes" name="option" value="yes">
+                    <label for="yes">Yes</label>
+                    <br>
+                    <input type="radio" id="no" name="option" value="no">
+                    <label for="no">No</label>
+                </form>
+            </div>
+        </div>
+        <div id="address">
+            <div class="container">
+                <p>Please fill in the following information;</p>
+                <form id="new-contact">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="new-first-name">
+                        <label for="new-first-name">First name</label>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="new-last-name">
+                        <label for="new-last-name">Last name</label>
+                    </div>
+                    <br>
+                    <div id="new-addresses">
+                        <div class="new-addresses">
+                            <div class="form-group">
+                                <label for="new-country">Country</label>
+                                <input type="text" class="form-control new-country">
+                            </div>
+                            <div class="form-group">
+                                <label for="new-town">Town</label>
+                                <input type="text" class="form-control new-town">
+                            </div>
+                        </div>    
+                    </div>
+                    <button type="submit" class="btn">Finish</button>
+                </form>
+
+                <h2>Order Details</h2>
+                <ul id="order-summary">
+
+                </ul>
+            </div>
+            <div id="show-summary">
+                <h2></h2>
+
+                <p>First name: <span class="first-name"></span></p>
+                <p>Last name: <span class="new-last-name"></span></p>
+                <p>Total price: <span class="total-price"></span></p>
+            </div>
         </div>
     </body>
 </html>
