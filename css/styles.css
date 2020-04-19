@@ -16,7 +16,7 @@ h1 {
     background-size: cover;
     width: 500px;
     height: 500px;
-    color: rgb(233, 201, 21);
+    color: rgb(148, 238, 106);
     text-align: center;
     background-position: center;
     font-size: 30px;
@@ -28,9 +28,9 @@ h1 {
     width: 100px;
     color: white;
 }
-#address {
-    display: none;
-}
 #delivery {
-    float: right;
+    color: white;
+}
+#address {
+    color: white;
 }

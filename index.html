@@ -13,27 +13,42 @@
         <div class="container">
             <h3 style="font-size: 50px; color: gold;">DEAR CUSTOMER</h3>
             <div class="card">
-                <div class="card-body">Welcome to our web application. Here you will  be able to make an order for the pizza of your own choice.</div>
+                <div class="card-body">
+                    <p>Welcome to our web application. Here you will  be able to make an order for the pizza of your own choice.</p>
+                    <p>Our prices are according to the available sizes as follows:
+                    <ul>
+                        <li>Small - ksh. 500</li>
+                        <li>Medium - ksh. 700</li>
+                        <li>Large - lsh. 900</li>
+                    </ul></p>
+                    <p>We also offer <strong>free delivery</strong> of goods ordered.</p>
+                </div>
             </div>
         </div>
         </div>
         <div id="forms">
          <div class="container">
 
-            <form>
+            <form action="js/scripts.js">
                 <input type="radio" id="small" name="size" value="small">
-                <label for="small">Small</label><br>
+                <label for="small">Small</label>
+                <br>
+
                 <input type="radio" id="medium" name="size" value="medium">
-                <label for="medium">Medium</label><br>
+                <label for="medium">Medium</label>
+                <br>
+
                 <input type="radio" id="large" name="size" value="large">
-                <label for="large">Large</label><br>
+                <label for="large">Large</label>
+
 
                 <label for="crusts">Choose kind of crust:</label>
                 <select id="crusts" name="crusts">
                     <option value="crispy">Crispy</option>
                     <option value="stuffed">Stuffed</option>
                     <option value="gluten-free">Gluten-free</option>
-                </select><br>
+                </select>
+
 
                 <label for="toppings">Choose the toppings:</label>
                 <select id="toppings" name="toppings">
@@ -41,9 +56,10 @@
                     <option value="Mushrooms">Mushrooms</option>
                     <option value="onions">Onions</option>
                     <option value="extra-cheese">Extra cheese</option>
-                </select><br>
+                </select>
+                
 
-                <input type="submit" onclick="">
+                <input type="submit" value="submit">
             </form>
          </div>
         </div>
@@ -52,8 +68,10 @@
                 <h3>Delivery Enquiry</h3>
                 <p>Would you like your order to be delivered?</p>
                 <form>
+                  <div id="yes-button">  
                     <input type="radio" id="yes" name="option" value="yes">
                     <label for="yes">Yes</label>
+                  </div>  
                     <br>
                     <input type="radio" id="no" name="option" value="no">
                     <label for="no">No</label>
@@ -102,5 +120,6 @@
                 <p>Total price: <span class="total-price"></span></p>
             </div>
         </div>
+        <script>/js/scripts.js</script>
     </body>
 </html>
